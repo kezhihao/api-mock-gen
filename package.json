@@ -2,6 +2,11 @@
   "name": "api-mock-gen",
   "version": "1.0.0",
   "description": "Generate mock REST API servers and TypeScript SDKs from OpenAPI specifications",
+  "homepage": "https://github.com/kezhihao/api-mock-gen#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kezhihao/api-mock-gen.git"
+  },
   "main": "dist/index.js",
   "bin": {
     "api-mock-gen": "./dist/cli.js"
@@ -12,6 +17,9 @@
     "dev": "tsc --watch",
     "start": "node dist/cli.js",
     "test": "echo \"Tests not yet implemented\" && exit 0"
+  },
+  "bugs": {
+    "url": "https://github.com/kezhihao/api-mock-gen/issues"
   },
   "keywords": [
     "openapi",
