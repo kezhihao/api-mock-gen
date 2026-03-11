@@ -1,5 +1,5 @@
 {
-  "name": "api-mock-gen",
+  "name": "@kzhtools/api-mock-gen",
   "version": "1.0.0",
   "description": "Generate mock REST API servers and TypeScript SDKs from OpenAPI specifications",
   "homepage": "https://github.com/kezhihao/api-mock-gen#readme",
@@ -9,7 +9,7 @@
   },
   "main": "dist/index.js",
   "bin": {
-    "api-mock-gen": "./dist/cli.js"
+    "api-mock-gen": "./bin/run.js"
   },
   "type": "module",
   "scripts": {
@@ -22,6 +22,7 @@
     "url": "https://github.com/kezhihao/api-mock-gen/issues"
   },
   "keywords": [
+    "api-mock-gen",
     "openapi",
     "swagger",
     "mock",
@@ -30,7 +31,18 @@
     "sdk",
     "codegen",
     "cloudflare",
-    "workers"
+    "workers",
+    "rest-api",
+    "rest",
+    "mock-server",
+    "mocking",
+    "fake-api",
+    "test",
+    "testing",
+    "development",
+    "developer-tools",
+    "fastify",
+    "hono"
   ],
   "author": "Auto Company",
   "license": "MIT",
